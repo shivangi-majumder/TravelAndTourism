@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context="com.shivangi.travelandtourism.MainActivity"
+    android:background="@drawable/bg3">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_id"
+        android:textSize="30dp"
+        android:hint="Username"
+        android:icon="@drawable/logout"
+        android:layout_marginRight="700dp"
+        android:layout_margin="5dp"
+        />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_password"
+        android:textSize="30dp"
+        android:inputType="textPassword"
+        android:icon="@drawable/pass"
+        android:hint="Password"
+
+        />
+
+    <CheckBox
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:textSize="15dp"
+        android:layout_margin="5dp"
+        android:id="@+id/cb_rm"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editTextPassword"
+        android:gravity="start"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusableInTouchMode="false">
+        <Button
+            android:id="@+id/btn_register"
+            android:text="Register"
+            android:textColor="#113362"
+            android:textSize="25sp"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn2"
+            android:shadowColor="#5dd3da"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:fontFamily="sans-serif"
+            />
+        <Button
+            android:id="@+id/btn_login"
+            android:text="Log In"
+            android:textColor="#080863"
+            android:textSize="30sp"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:background="@drawable/btn1"
+            android:shadowColor="#71d4ef"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_marginLeft="40dp"
+            android:fontFamily="sans-serif"
+            />
+</LinearLayout>
+
+</LinearLayout>

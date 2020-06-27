@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.shivangi.travelandtourism.Menu">
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+       <ImageButton
+           android:layout_width="150dp"
+           android:layout_height="match_parent"
+           android:id="@+id/btn_c1"
+           android:hint="Cities"
+           android:paddingLeft="16dp"
+           android:paddingRight="16dp"
+           android:paddingTop="16dp"
+           android:background="@drawable/ig"
+           android:layout_margin="10dp"/>
+
+        <ImageButton
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/btn_package"
+            android:background="@drawable/pack"
+            android:hint="Cities"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_margin="10dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/btn_bookings"
+                android:hint="My Bookings"
+                android:background="@drawable/book"/>
+
+            <ImageButton
+                android:layout_margin="10dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:id="@+id/btn_feedback"
+                android:hint="Feedback"
+                android:background="@drawable/feed"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:hint="Back"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btn_back"
+            android:background="#f44949" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

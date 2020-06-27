@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg4">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_cd"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp"/>
+
+<HorizontalScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_kol1"
+        android:hint="Cities"
+        />
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iv_kol2"
+        android:hint="Cities"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/iv_kol3"
+        android:hint="Cities"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="match_parent"
+        android:id="@+id/iv_kol4"
+        android:hint="Cities" />
+    </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="top"
+        android:layout_marginLeft="150dp"
+        android:text="Best Hotels"
+        android:textColor="@color/cyan"
+        android:textStyle="bold"/>
+    <ListView
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv_kol"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp">
+
+    </ListView>
+    </LinearLayout>

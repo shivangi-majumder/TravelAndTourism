@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.shivangi.travelandtourism.Selection"
+    android:background="@drawable/bg6">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" No. of Days :"
+        android:textSize="25dp"/>
+
+    <EditText
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_days"
+        android:textSize="25dp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:hint=" No. of Rooms :"
+        android:textSize="25dp"
+
+        />
+
+    <EditText
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_people"
+        android:textSize="25dp"
+        android:inputType="number"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="CALCULATE"
+        android:id="@+id/btn_cal"
+        android:background="#808080" />
+
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:hint="Total"
+        android:textSize="22dp"
+
+        />
+    <EditText
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_sum"
+        android:textSize="25dp"
+        android:inputType="number"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="SUBMIT"
+        android:id="@+id/btn_sub"
+        android:background="#3de256" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="BACK"
+        android:id="@+id/btn_b"
+        android:background="#f76060" />
+
+
+
+</LinearLayout>
