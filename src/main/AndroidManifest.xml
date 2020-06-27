@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shivangi.travelandtourism">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/jj"
+        android:label="HereWeGo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="HereWeGo" />
+        <activity android:name=".Menu" />
+        <activity android:name=".Registration" />
+        <activity android:name=".CityList" />
+        <activity android:name=".feedback" />
+        <activity android:name=".Payment" />
+        <activity android:name=".SpecialOffer" />
+        <activity android:name=".Booking" />
+        <activity android:name=".Selection" />
+        <activity android:name=".thanks" />
+        <activity android:name=".CityDetails" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Nav"
+            android:label="@string/title_activity_nav"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter
+                android:icon="@drawable/ic_menu_share"
+                android:label="share this app">
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".About" />
+        <activity android:name=".Contact" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"></activity>
+    </application>
+
+</manifest>
